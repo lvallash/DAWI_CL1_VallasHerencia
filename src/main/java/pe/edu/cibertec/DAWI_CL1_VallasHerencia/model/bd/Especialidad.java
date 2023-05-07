@@ -9,14 +9,14 @@ import lombok.Data;
 
 @Data
 @Entity
-@Table(name = "Especialidad")
+@Table(name = "especialidad")
 public class Especialidad {
 	 @Id
-	 private Integer idEsp;
+	 private String idesp;
 	 @Column
-	 private String nomEsp;
+	 private String nomesp;
 	 @Column 
-	 private Double costo;
+	 private Integer costo;
 	
 	
 }

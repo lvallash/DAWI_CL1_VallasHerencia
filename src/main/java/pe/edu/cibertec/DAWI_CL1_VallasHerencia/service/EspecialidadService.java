@@ -18,7 +18,7 @@ public class EspecialidadService {
 		return especialidadRepository.findAll();
 	}
 	
-	public void registrarEstado(Especialidad especialidad) {
+	public void registrarEspecialidad(Especialidad especialidad) {
 		especialidadRepository.save(especialidad);
 	}
 
